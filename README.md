@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="desafio.PNG" alt="Logo Desafio">
+    <img src="desafio.PNG" alt="Logo Desafio" width:100% height:80%>
 </h1>
 
 # Sobre
@@ -10,7 +10,7 @@ Página do repositório de implementação das questões do Desafio de Programa�
 
 Você pode conhecer mais sobre a **ACADEMIA Capgemini** clicando [aqui](https://capgemini.proway.com.br/).
 
-Você pode baixar os códigos das questãos [aqui](https://github.com/jobafi/challenge-capgemini-2022).
+Clique [aqui](https://github.com/jobafi/challenge-capgemini-2022) para baixar os códigos das questãos.
 
 ## Orientações para execução dos códigos
 * Questão 1
