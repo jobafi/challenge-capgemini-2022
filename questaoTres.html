@@ -4,31 +4,35 @@
 
     function encryptaFrase(crt) {
 
-    let novaMatriz = [];
+        let novaMatriz = [];
 
-    let crtSemEspacos = crt.split(' ').join(''); // "O método split() divide uma String em uma lista ordenada de substrings, coloca essas substrings em um array e retorna o array. A divisão é feita procurando um padrão, onde o padrão é fornecido como o primeiro parâmetro na chamada do método". Já o "método join() junta todos os elementos de um array (ou um array-like object) em uma string e retorna esta string".
+        let crtSemEspacos = crt.split(' ').join(''); // "O método split() divide uma String em uma lista ordenada de substrings, coloca essas substrings em um array e retorna o array. A divisão é feita procurando um padrão, onde o padrão é fornecido como o primeiro parâmetro na chamada do método". Já o "método join() junta todos os elementos de um array (ou um array-like object) em uma string e retorna esta string".
 
-    let crtComprimento = Math.round(Math.sqrt(crtSemEspacos.length)); // para esta variável, aplicamos função Math.round(), pois ela retorna o valor de um número arredondado para o inteiro mais proximo. Também foi usada a função Math.sqrt(), que por sua vez retorna a raiz quadrada de um número.
+        let crtComprimento = Math.round(Math.sqrt(crtSemEspacos.length)); // para esta variável, aplicamos função Math.round(), pois ela retorna o valor de um número arredondado para o inteiro mais proximo. Também foi usada a função Math.sqrt(), que por sua vez retorna a raiz quadrada de um número.
 
-    let encryptaTexto = '';
+        let encryptaTexto = '';
 
-    for (var i = 0; i < crtSemEspacos.length; i = i + crtComprimento) {
-        novaMatriz.push(crtSemEspacos.slice(i, i + crtComprimento)); // adicionando elemento à nova matriz com o método push() e retornando uma cópia com o método slice().
-    }
+        for (var i = 0; i < crtSemEspacos.length; i = i + crtComprimento) {
 
-    for (let i = 0; i < crtComprimento; i++) {
-
-        for (let j = 0; j < crtComprimento; j++) {
-
-            if (novaMatriz[j][i] != undefined) {
-
-                encryptaTexto += novaMatriz[j][i];
-            }
+            novaMatriz.push(crtSemEspacos.slice(i, i + crtComprimento)); // adicionando elemento à nova matriz com o método push() e retornando uma cópia com o método slice().
         }
-        encryptaTexto += ' ';
-    }
-    // usando o identificador cifrão ($) para acessar texto encriptado e exibir no "console.log()".
-    return console.log(`Texto encripatado: ${encryptaTexto}`);
+
+        for (let i = 0; i < crtComprimento; i++) {
+
+            for (let j = 0; j < crtComprimento; j++) {
+
+                if (novaMatriz[j][i] != undefined) {
+
+                    encryptaTexto += novaMatriz[j][i];
+                }
+
+            }
+
+            encryptaTexto += ' ';
+        }
+
+        // usando o identificador cifrão ($) para acessar texto encriptado e exibir no "console.log()".
+        return console.log(`Texto encripatado: ${encryptaTexto}`);
     }
 
     encryptaFrase('academia capgemini desafio de programação');

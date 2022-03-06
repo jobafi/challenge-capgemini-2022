@@ -3,27 +3,41 @@
 <script>
  
     function paresDiferencial(arr, n, x) {
-         count = 0;
+
+        count = 0;
           
         // escolhendo os elementos um por um:
-        for (let i = 0; i < n; i++) {     
+        for (let i = 0; i < n; i++) {    
+
             // verificando se há par do elemento escolhido:
             for (let j = i+1; j < n; j++) {
+
                 if (arr[i] - arr[j] == x || arr[j] - arr[i] == x ) {
+
                     count++;
+
                 }
+
             }
                 
         }
+
         return count;
+
     }
       
     //testando a função:
     arr = new Array(8, 9, 4, 1, 7, 10, 15);
+
     n = arr.length;
+
     x = 3;
+    console.log(arr);
+
     document.write('Matriz: ' + '[' + arr + ']');
+
     document.write('<br>');
+
     document.write("A contagem de pares com o diferencial dado é: " + paresDiferencial(arr, n, x) + '.');  
         
 </script>
