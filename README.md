@@ -13,6 +13,8 @@ Você pode conhecer mais sobre a **ACADEMIA Capgemini** clicando [aqui](https://
 Clique [aqui](https://github.com/jobafi/challenge-capgemini-2022) para baixar os códigos das questãos.
 
 ## Orientações para execução dos códigos
+
+### Questão 1
   <img src="q1.PNG" alt="Questão 1">
 
 Para ver o resultado da implementação desta questão, siga os passos abaixo:
@@ -21,7 +23,8 @@ Para ver o resultado da implementação desta questão, siga os passos abaixo:
 3. Selecione o arquivo desejado, clique no botão direito do mouse, vá em **Abrir com** e selecione o Browser de sua preferência. Sugestão: Google Chrome.
 
 O mesmo procedimento vale para executar o arquivo "testeQuestaoUm.html".
-  
+
+### Questão 2
   <img src="q2.PNG" alt="Questão 2">
 
 Para ver o resultado da implementação desta questão, siga os passos abaixo:
@@ -31,6 +34,7 @@ Para ver o resultado da implementação desta questão, siga os passos abaixo:
 
 O mesmo procedimento vale para executar o arquivo "testeQuestaoDois.html".
 
+### Questão 3
   <img src="q3.PNG" alt="Questão 3">
 
 Para ver o resultado da implementação desta questão, siga os passos abaixo:
