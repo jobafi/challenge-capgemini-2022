@@ -22,7 +22,9 @@ Para ver o resultado da implementação desta questão, siga os passos abaixo:
 2. Em seguida, vá até a pasta onde está o arquivo baixado;
 3. Selecione o arquivo desejado, clique no botão direito do mouse, vá em **Abrir com** e selecione o Browser de sua preferência. Sugestão: Google Chrome.
 
-<font color=\"blue\">O mesmo procedimento vale para executar o arquivo "testeQuestaoUm.html".</font>
+O mesmo procedimento vale para executar o arquivo "testeQuestaoUm.html".
+
+***
 
 ### <Enunciado 2>
   <img src="q2.PNG" alt="Questão 2">
@@ -33,6 +35,8 @@ Para ver o resultado da implementação desta questão, siga os passos abaixo:
 3. Selecione o arquivo desejado, clique no botão direito do mouse, vá em **Abrir com** e selecione o Browser de sua preferência. Sugestão: Google Chrome.
 
 O mesmo procedimento vale para executar o arquivo "testeQuestaoDois.html".
+
+***
 
 ### <Enunciado 3>
   <img src="q3.PNG" alt="Questão 3">
@@ -45,8 +49,11 @@ Para ver o resultado da implementação desta questão, siga os passos abaixo:
 
 O mesmo procedimento vale para executar o arquivo "testeQuestaoTres.html".
 
+***
+
 ## Observação
 Implementação realizada em JavaScript, mas as chamadas para execução dos códigos de cada questão foram feitas dentro dos respectivos aquivos HTML. Para cada questão encontra-se um arquivo de teste correspondente, também em HTML.
+
 
 ## Tecnologias usadas:
 * **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
