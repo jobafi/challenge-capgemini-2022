@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function encryptaFrase(crt) {
+
+    let novaMatriz = [];
+
+    let crtSemEspacos = crt.split(' ').join('');
+
+    let crtComprimento = Math.round(Math.sqrt(crtSemEspacos.length));
+
+    let encryptaTexto = '';
+
+    for (var i = 0; i < crtSemEspacos.length; i = i + crtComprimento) {
+        novaMatriz.push(crtSemEspacos.slice(i, i + crtComprimento)); 
+    }
+
+    for (let i = 0; i < crtComprimento; i++) {
+
+        for (let j = 0; j < crtComprimento; j++) {
+
+            if (novaMatriz[j][i] != undefined) {
+
+                encryptaTexto += novaMatriz[j][i];
+            }
+        }
+        encryptaTexto += ' ';
+    }
+
+    return console.log(`Texto encripatado: ${encryptaTexto}`);
+    }
+
+    encryptaFrase('tenha um bom dia');
+
+</script>
