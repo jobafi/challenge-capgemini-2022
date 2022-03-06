@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="desafio.PNG" alt="Logo Desafio" width:100% height:80%>
+    <img src="desafio.PNG" alt="Logo Desafio">
 </h1>
 
 # Sobre
@@ -13,12 +13,17 @@ Você pode conhecer mais sobre a **ACADEMIA Capgemini** clicando [aqui](https://
 Clique [aqui](https://github.com/jobafi/challenge-capgemini-2022) para baixar os códigos das questãos.
 
 ## Orientações para execução dos códigos
+  <img src="q1.PNG" alt="Questão 1">
 * Questão 1
-* Questão 2
+  
+  <img src="q2.PNG" alt="Questão 2">
 * Questão 2
 
+  <img src="q3.PNG" alt="Questão 3">
+* Questão 3
+
 ## Observação
-As implementação foram em JavaScript, sendo sendo chamada a execução dentro do HTML.
+Implementação realizada em JavaScript, mas as chamadas para execução dos códigos de cada questão foram feitas dentro dos respectivos aquivos HTML.
 
 ## Tecnologias usadas:
 * **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
