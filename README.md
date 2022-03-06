@@ -14,16 +14,35 @@ Clique [aqui](https://github.com/jobafi/challenge-capgemini-2022) para baixar os
 
 ## Orientações para execução dos códigos
   <img src="q1.PNG" alt="Questão 1">
-* Questão 1
+
+Para ver o resultado da implementação desta questão, siga os passos abaixo:
+1 - Baixe o arquivo "questaoUm.html";
+2 - Em seguida, vá até a pasta onde está o arquivo baixado;
+3 - Selecione o arquivo desejado, clique no botão direito do mouse, vá em **Abrir com** e selecione o Browser de sua preferência. Sugestão: Google Chrome.
+
+O mesmo procedimento vale para executar o arquivo "testeQuestaoUm.html".
   
   <img src="q2.PNG" alt="Questão 2">
-* Questão 2
+
+Para ver o resultado da implementação desta questão, siga os passos abaixo:
+1 - Baixe o arquivo "questaoDois.html";
+2 - Em seguida, vá até a pasta onde está o arquivo baixado;
+3 - Selecione o arquivo desejado, clique no botão direito do mouse, vá em **Abrir com** e selecione o Browser de sua preferência. Sugestão: Google Chrome.
+
+O mesmo procedimento vale para executar o arquivo "testeQuestaoDois.html".
 
   <img src="q3.PNG" alt="Questão 3">
-* Questão 3
+
+Para ver o resultado da implementação desta questão, siga os passos abaixo:
+1 - Baixe o arquivo "questaoTres.html";
+2 - Em seguida, vá até a pasta onde está o arquivo baixado;
+3 - Selecione o arquivo desejado, clique no botão direito do mouse, vá em "Abrir com" e selecione o Browser de sua preferência. Sugestão: Google Chrome.
+4 - Ao abrir, clique na tecla **F12**, vá até a opção **Console** e verá a mensagem encryptada. Geralmente a janela aparecerá do lado direito do seu navegador. Uma outra opção para visualizar a mensagem é clicando no botão direito do mouse e selecionando **Inspecionar**. Há ainda a opção de ir em **Mais Ferramentas** (tres pontinhos do lado superior direito) e selecionando **Ferramentas de desenvolvedor**. 
+
+O mesmo procedimento vale para executar o arquivo "testeQuestaoTres.html".
 
 ## Observação
-Implementação realizada em JavaScript, mas as chamadas para execução dos códigos de cada questão foram feitas dentro dos respectivos aquivos HTML.
+Implementação realizada em JavaScript, mas as chamadas para execução dos códigos de cada questão foram feitas dentro dos respectivos aquivos HTML. Para cada questão encontra-se um arquivo de teste correspondente, também em HTML.
 
 ## Tecnologias usadas:
 * **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
@@ -41,4 +60,3 @@ Implementação realizada em JavaScript, mas as chamadas para execução dos có
 
 ## Licença:
 Este projeto está licenciado sob a licença MIT - consulte a página [LICENÇA](https://opensource.org/licenses/MIT) para obter detalhes.
-
