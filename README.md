@@ -14,7 +14,7 @@ Clique [aqui](https://github.com/jobafi/challenge-capgemini-2022) para baixar os
 
 ## Orientações para execução dos códigos
 
-### <span style="color:blue">Questão 1</span>
+### <font color=\"blue\">Questão 1</font>
   <img src="q1.PNG" alt="Questão 1">
 
 Para ver o resultado da implementação desta questão, siga os passos abaixo:
@@ -24,7 +24,7 @@ Para ver o resultado da implementação desta questão, siga os passos abaixo:
 
 O mesmo procedimento vale para executar o arquivo "testeQuestaoUm.html".
 
-### <span style="color:blue">Questão 2</span>
+### <font color=\"blue\">Questão 2</font>
   <img src="q2.PNG" alt="Questão 2">
 
 Para ver o resultado da implementação desta questão, siga os passos abaixo:
@@ -34,7 +34,7 @@ Para ver o resultado da implementação desta questão, siga os passos abaixo:
 
 O mesmo procedimento vale para executar o arquivo "testeQuestaoDois.html".
 
-### <span style="color:blue">Questão 3</span>
+### <font color=\"blue\">Questão 3</font>
   <img src="q3.PNG" alt="Questão 3">
 
 Para ver o resultado da implementação desta questão, siga os passos abaixo:
